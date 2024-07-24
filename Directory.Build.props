@@ -2,6 +2,7 @@
   <Import Project="eng\Common.props" />
 
   <PropertyGroup>
+    <Features>$(Features);debug-analyzers</Features>
     <AccelerateBuildsInVisualStudio>true</AccelerateBuildsInVisualStudio>
   </PropertyGroup>
 

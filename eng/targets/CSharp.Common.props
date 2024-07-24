@@ -3,7 +3,7 @@
     <LangVersion>preview</LangVersion>
 
     <!-- Enables Strict mode for Roslyn compiler -->
-    <Features>strict</Features>
+    <Features>$(Features);strict</Features>
   </PropertyGroup>
 
   <ItemGroup Condition=" $(IsTestProject) ">
